@@ -1,0 +1,111 @@
+body{
+
+	background-image: url('../images/bg.jpg');
+	font-family: Arial, Helvetica, sans-serif,Marck+Script,Rubik+Mono+One;
+ 	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+
+input[type=text], input[type=password] ,input[type=email]{
+   	width: 100%;
+    padding: 15px;
+    margin: 2px 0 15px 0;
+    display: inline-block;
+    border: solid red 1px;
+    background: #f1f1f1;
+    -webkit-border-radius: 30px;
+    outline: none;
+}
+
+input[type=text]:focus, input[type=password]:focus, input[type=email]:focus {
+    background-color: #ddd;
+}
+
+input[type=text]:hover, input[type=password]:hover, input[type=email]:hover {
+	box-shadow: 0 0 15px rgba(133,133,33,.7);
+	}
+
+
+
+button {
+
+	background-color: red;
+	color: white;
+	padding: 14px 20px;
+	border: none;
+	cursor: pointer;
+	width: 50%;
+	opacity: 0.9;
+	margin-left: 25%;
+	-webkit-border-radius: 30px;
+	outline: none;
+  text-decoration: none;
+
+}
+
+button:hover {
+    opacity:1;
+/*    transform: scale(1.01);
+*/    transition: all .4s ease-in-out;
+}
+
+
+#legend{
+  font-size: 60px;
+  letter-spacing: 20px;
+  color: black;
+  text-align: center;
+/*  margin-top: -10px;
+  margin-left: 20px;
+*/text-decoration: underline;
+  font-family: Rubik+Mono+One
+  }
+
+ #rait{
+      text-align: center;
+      color: white;
+/*      margin-top: -90px;
+*/      letter-spacing: 10px;
+      font-size: 20px;
+      font-family: Rubik+Mono+One
+/*      margin-right: 50px;
+*/
+  }
+
+ #express{
+    font-family: 'Cedarville Cursive', cursive;
+  }
+
+hr {
+    overflow: visible; /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+
+hr:before {
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+
+#ipt{
+	padding-left: 400px ;
+	padding-right: 400px ;
+
+}
+
+a:hover{
+	color: black;
+}
+a{
+	color: blue;
+}
